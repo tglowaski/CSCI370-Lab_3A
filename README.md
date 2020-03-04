@@ -121,7 +121,6 @@ mInflator = (LayoutInflater) mContext.getSystemService((Context.LAYOUT_INFLATER_
 ```
 * Under that line, code the mapping, the basic steps are create a reference to the View items in layout file, create a Student reference by calling getItem(), set necessary fields in View items with data from Student.
 * In MainActivity.java, have your ListView object set an adapter with the StudentAdapter you created in the last step.
-*
 * Run your application and test.
 
 ### Add Click Listeners:
