@@ -36,7 +36,7 @@ This lab will build upon your basic Adapter knowledge. You will create a custom 
         android:layout_height="wrap_content">
 
         <TextView
-            android:id="@+id/category_thumbnail"
+            android:id="@+id/thumbnail"
             android:layout_width="90dp"
             android:layout_height="90dp"
             android:layout_alignParentStart="true"
@@ -98,6 +98,7 @@ This lab will build upon your basic Adapter knowledge. You will create a custom 
         </RelativeLayout>
     </RelativeLayout>
 ```
+* Modifying the thumbnail to be an ImageView will be the **Challenge**. Get the version with TextView workking first. You can use [icons8.com](https://icons8.com/) for icons. I think 96 by 96 is a good size to get.
 * Create a Java reference to the ListView in **MainActivity.java**.
 * Create a **Student** class in Java (a POJO- Plain Ole Java Object) with three Strings as private member variables (firstName, lastName, and major). Remember, POJO are only constructors, getters, and setters.
 * In MainActivity.java, create 5 Students and put them into an ArrayList. Make sure to give the Students a firstName, lastName, and major.
